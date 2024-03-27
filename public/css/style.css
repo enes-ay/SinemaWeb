@@ -1,0 +1,241 @@
+.about {
+  background: #d6c4ef;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-top: 90px;
+}
+
+.menu {
+  background-color: rgb(153, 112, 211);
+  margin: 2px;
+  padding: 7px;
+}
+.detail_img figure img {
+  position: relative;
+  z-index: 9999;
+}
+.detail {
+  margin: 70px;
+  padding: 30px;
+}
+.detail .titlepage h3 {
+  color: #000000;
+  text-align: center;
+}
+.detail .titlepage p {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+.uploadedby {
+  font-size: 20px;
+  max-width: 266px;
+  width: 100%;
+  transition: ease-in all 0.5s;
+  color: #18067f;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.list-group-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+.card {
+  margin-top: 10px;
+}
+.movie_card_link {
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  color: black;
+}
+.categories {
+  background-color: rgb(96, 24, 138);
+  padding: 10px;
+}
+.nav-item a {
+  font-size: 20px;
+  color: white;
+}
+
+/** register **/
+
+.main_form .form_control {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 66px;
+  background: #fff;
+  color: #000000;
+  font-size: 15px;
+  font-weight: normal;
+  border: #6b6b6b solid 1px;
+}
+
+.main_form .form_cont {
+  margin-bottom: 40px;
+  width: 100%;
+  background: #fff;
+  color: #d0d0cf !important;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 5px 20px 0px 20px;
+  height: 129px;
+  border: #6b6b6b solid 1px;
+}
+.group_form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.group_form .send_btn {
+  font-size: 18px;
+  transition: ease-in all 0.5s;
+  background-color: #2a2929;
+  color: #fff;
+  max-width: 129px;
+  width: 100%;
+  font-weight: 600;
+  height: 69px;
+  line-height: 29px;
+  border-radius: 5px;
+  margin: 0 2px;
+}
+
+.group_form .send_btn:hover {
+  background-color: #5d78e7;
+  transition: ease-in all 0.05s;
+  color: #fff;
+}
+.register {
+  padding: 16px;
+}
+.register_btn a {
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+}
+.register_btn {
+  margin: 30px;
+}
+.col-md-12 {
+  display: flex;
+  justify-content: center;
+}
+.col-md-12 textarea {
+  background-color: #624fd1;
+}
+.btn_movieUpload {
+  background-color: #7a1fa8;
+  height: 50px;
+  width: 250px;
+  color: #ffffff;
+}
+.col-md-12 {
+  display: block;
+}
+
+.modal-header {
+  background-color: #7367b7;
+}
+.close {
+  background-color: rgb(213, 55, 55);
+}
+.container {
+  height: 100%;
+  background-color: #e0d5f1;
+}
+.dashboard {
+  padding: 40px;
+}
+.btn_movieUpload a {
+  text-decoration: none;
+  color: white;
+}
+.delete_movie {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 11px;
+}
+#movie_description {
+  margin-top: 25px;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+a:active {
+  color: rgb(91, 217, 37);
+}
+
+.lightbox a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.delete_movie{
+  position: relative;
+  right: 0;
+}
+.update_delete {
+  margin: 7px;
+  padding: 10px;
+  font-size: 17px;
+  background: #000000;
+  color: #fff;
+  max-width: 266px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  float: right;
+  border-radius: 5px;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.poster{
+  padding: 15px;
+}
+#movie_title{
+  font-size: 40px; 
+  width: 700px; 
+  display: flex; 
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+#ekleyen_kullanıcı{
+  color: #ffffff;
+  margin-top: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+}
+#detail_director{
+  margin-top: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#detail_year_category{
+  margin-top: 25px;
+  font-size: 23px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  
+}
+#greeting_dashboard{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}

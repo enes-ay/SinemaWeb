@@ -1,0 +1,26 @@
+  <div class="menu">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class=" nav-link" href="/">Ana Sayfa</a>
+      </li>
+
+      <% if (user) { %>
+        <li class="nav-item">
+          <a  class=" nav-link " href="/users/dashboard">Üyelik Ekranı</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/logout">Çıkış Yap</a>
+        </li>
+      <% }else { %>
+        <li class="nav-item">
+          <a class=" nav-link" href="/register">Üye Ol</a>
+        </li>
+        <li class="nav-item justify-content-end">
+          <a class="nav-link" href="/login">Giriş Yap</a>
+        </li>
+      
+        <% }%>
+    </ul>
+  </div>
+
+  
