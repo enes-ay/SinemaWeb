@@ -1,6 +1,6 @@
 # Movie Listing Website
 
-This is a Movie Listing website built using MongoDB, Node.js, and Express.js with MCV design pattern. The website allows users to add movies to a list, view movie details, filter movies by genre, and manage their accounts. Below is an overview of the key features and screenshots of the website.
+This is a Movie Listing website built using MongoDB, Node.js, and Express.js with MVC design pattern. The website allows users to add movies to a list, view movie details, filter movies by genre, and manage their accounts. Below is an overview of the key features and screenshots of the website.
 
 # Technologies Used
 
